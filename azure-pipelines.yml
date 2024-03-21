@@ -31,8 +31,9 @@ stages:
               workingDir: "$(System.DefaultWorkingDirectory)"
             displayName: "Build PGS-V2 Root-Config app"
 
-          - script:
-              mkdir $(Build.ArtifactStagingDirectory)\\dist |
+          - script: |
+              mkdir $(Build.ArtifactStagingDirectory)\\dist
+              xcopy ".\\importmap.json" .\\dist
               xcopy "$(System.DefaultWorkingDirectory)\\dist" $(Build.ArtifactStagingDirectory)\\dist /E/H/C
             displayName: "Copy Dist Contents"
 

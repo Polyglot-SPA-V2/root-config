@@ -1,0 +1,11 @@
+{
+  "imports": {
+    "@polyglot-spa-v2/navbar": "",
+    "@polyglot-spa-v2/footer": "",
+    "@polyglot-spa-v2/homepage": "",
+    "@polyglot-spa-v2/react-chess": "https://pgsv2storageaccount.blob.core.windows.net/pgs-v2-react-chess/polyglot-spa-v2-react-chess.js",
+    "@polyglot-spa-v2/vue-chess": "",
+    "@polyglot-spa-v2/angular-chess": "https://pgsv2storageaccount.blob.core.windows.net/pgs-v2-angular-chess/main.js",
+    "@polyglot-spa-v2/root-config": "/polyglot-spa-v2-root-config.js"
+  }
+}
