@@ -1,0 +1,28 @@
+<single-spa-router>
+  <!--
+
+    This is the single-spa Layout Definition for your microfrontends.
+    See https://single-spa.js.org/docs/layout-definition/ for more information.
+
+  -->
+
+  <!-- Example layouts you might find helpful:
+
+  <nav>
+    <application name="@org/navbar"></application>
+  </nav>
+  <route path="settings">
+    <application name="@org/settings"></application>
+  </route>
+
+  -->
+
+  <main>
+    <route default>
+      <application name="@polyglot-spa-v2/react-chess"></application>
+    </route>
+    <route path="angular-chess">
+      <application name="@polyglot-spa-v2/angular-chess"></application>
+    </route>
+  </main>
+</single-spa-router>
