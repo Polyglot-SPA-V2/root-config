@@ -33,7 +33,6 @@ stages:
 
           - script: |
               mkdir $(Build.ArtifactStagingDirectory)\\dist
-              xcopy ".\\importmap.json" .\\dist
               xcopy "$(System.DefaultWorkingDirectory)\\dist" $(Build.ArtifactStagingDirectory)\\dist /E/H/C
             displayName: "Copy Dist Contents"
 
