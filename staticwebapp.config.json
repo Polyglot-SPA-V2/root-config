@@ -1,8 +1,16 @@
 {
   "routes": [
     {
-      "route": "/calendar*",
-      "rewrite": "/calendar.html"
+      "route": "/angular-chess",
+      "rewrite": "/index.html"
+    },
+    {
+      "route": "/vue-chess",
+      "rewrite": "/index.html"
+    },
+    {
+      "route": "/react-chess",
+      "rewrite": "/index.html"
     }
   ]
 }
