@@ -6,23 +6,25 @@
 
   -->
 
-  <!-- Example layouts you might find helpful:
-
   <nav>
-    <application name="@org/navbar"></application>
+    <application name="@polyglot-spa-v2/navbar"></application>
   </nav>
-  <route path="settings">
-    <application name="@org/settings"></application>
-  </route>
-
-  -->
-
   <main>
     <route default>
+      <application name="@polyglot-spa-v2/homepage"></application>
+    </route>
+    <route path="react-chess">
       <application name="@polyglot-spa-v2/react-chess"></application>
+    </route>
+    <route path="vue-chess">
+      <application name="@polyglot-spa-v2/vue-chess"></application>
     </route>
     <route path="angular-chess">
       <application name="@polyglot-spa-v2/angular-chess"></application>
     </route>
   </main>
+  <!-- FOOTER -->
+  <footer class="container">
+    <application name="@polyglot-spa-v2/footer"></application>
+  </footer>
 </single-spa-router>
